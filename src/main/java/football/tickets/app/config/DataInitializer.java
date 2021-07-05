@@ -6,6 +6,8 @@ import football.tickets.app.model.Role;
 import football.tickets.app.model.User;
 import football.tickets.app.service.RoleService;
 import football.tickets.app.service.UserService;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.springframework.stereotype.Component;
 
 @Component
