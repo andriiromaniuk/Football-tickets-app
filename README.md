@@ -10,11 +10,11 @@ After those steps you have possibilites based on authorized account role:
 
 Admin has access to:
 - 
-- 1 
-  
+- 1
+
   "Users" can:
-- 
-- 
+-
+-
 
 For menu to show up use browser to send /index request to your server after logging in.
 
