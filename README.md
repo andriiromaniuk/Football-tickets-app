@@ -6,21 +6,14 @@ It is RESTful project with which you can manage football ticketing system.
 2. Setup MySQL Server and enter your schemas URL, USERNAME and PASSWORD in db.properties file. User must have access to schema that was given in URL.
 3. Run a project
 
-After those steps you have possibilites based on authorized account role:
+In DataInitializer class you can make your own profile (method inject()) with ADMIN/USER role with which you will be able to login on /login page.
 
-Admin has access to:
-- 
-- 1
-
-  "Users" can:
--
--
-
-For menu to show up use browser to send /index request to your server after logging in.
+You may use Postman to check how things work, see controller package for available requests.
 
 ## Tecnhologies used in project
-- JDBC
+- Spring - Core, MVC, Web, Security
+- Hibernate Framework
 - MySQL Server 8.0.25
-- Java Servlet API
-- JSP
+- Maven
 - Apache Tomcat 9.0.46
+- Json
